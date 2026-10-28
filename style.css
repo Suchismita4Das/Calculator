@@ -1,0 +1,32 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 58px;
+    border: none;
+    border-radius: 12px;
+    background: #334155;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #475569;
+}
+
+button:nth-child(4n) {
+    background: #2563eb;
+}
+
+button:first-child,
+button:nth-child(2) {
+    background: #dc2626;
+}
+
+button:last-child {
+    background: #16a34a;
+}
