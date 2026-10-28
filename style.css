@@ -71,3 +71,25 @@ h2 {
     font-size: 30px;
 }
 
+/* Responsive calculator layout */
+@media (max-width: 400px) {
+    .calculator {
+        width: calc(100% - 24px);
+        padding: 16px;
+    }
+
+    .buttons {
+        gap: 8px;
+    }
+
+    button {
+        height: 52px;
+        font-size: 18px;
+    }
+
+    #display {
+        height: 65px;
+        font-size: 26px;
+    }
+}
+
